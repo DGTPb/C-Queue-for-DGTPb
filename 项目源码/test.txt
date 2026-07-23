@@ -1,0 +1,2 @@
+cd build
+.\scenic_map.exe

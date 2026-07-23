@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\scenic_map.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\scenic_map.dir/objects.a @CMakeFiles\scenic_map.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\scenic_map.dir/objects.a -Wl,--no-whole-archive -o scenic_map.exe -Wl,--out-implib,libscenic_map.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\scenic_map.dir\linkLibs.rsp
